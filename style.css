@@ -60,8 +60,8 @@ header {
     display: flex;
     padding: 0 80px 20px;
     flex-direction: column;
-    width: 100%;
-    height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
     align-items: center;
     text-align: center;
     background-color: #FFFAF4;
@@ -297,8 +297,6 @@ header {
     height: 100%;
     object-fit: contain;
   }
-
-
 footer{
     margin-top: 100px;
     font-weight: 400;
@@ -317,4 +315,56 @@ footer a{
     text-decoration: none;
     font-size: 16px;
     color: #d66464;
+}
+
+.responsive{
+    height: 100vh;
+    background-color: antiquewhite;
+    padding: 200px 80px;
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.responsive h3{
+    font-size: 22px;
+    margin-top: 30px;
+}
+.responsive a{
+    color: #d66464;
+}
+
+@media (max-width: 1200px){
+    .responsive{
+        display: block;
+        
+    }
+    header{
+        display: none;
+    }
+    #scope{
+        display: none;
+    }
+    #folder-structure{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    
+}
+
+@media (max-height: 780px){
+    .header-div {
+        margin-top: 100px;
+    }
+}
+@media (max-height: 690px){
+    .arrow{
+        display: none;
+    }
+    .header-div {
+        margin-top: 50px;
+    }
 }
