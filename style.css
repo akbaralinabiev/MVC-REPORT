@@ -183,7 +183,7 @@ header {
     align-items: center;
 }
 .container{
-    max-width: 1000px;
+    max-width: 1100px;
     border: 2px solid black;
     border-radius: 5px;
     padding: 20px;
@@ -241,7 +241,7 @@ header {
     margin-bottom: 10px;
 }
 .features-text img{
-    width: 800px;
+    width: 900px;
     margin-bottom: 40px;
 }
 .features-text .images{
