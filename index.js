@@ -1,4 +1,4 @@
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down "X" px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 650) {
